@@ -1,6 +1,6 @@
 cask "stashbase" do
   version "0.1.0"
-  sha256 "ae1f280b7c0c86ef39432fabca4efc147e3faeeaf5176506c6d539a7ea1c31a0"
+  sha256 "956c01195d76a5f5fd9f8fb0b0c15e144e424335444b9adbf03560178ecae240"
 
   url "https://github.com/liliu-z/stashbase/releases/download/v0.1.0/StashBase-0.1.0-mac-arm64.dmg"
   name "StashBase"
@@ -15,9 +15,6 @@ cask "stashbase" do
                    sudo: false
     system_command "/usr/bin/codesign",
                    args: ["--force", "--deep", "--sign", "-", "#{appdir}/StashBase.app"],
-                   sudo: false
-    system_command "#{appdir}/StashBase.app/Contents/MacOS/StashBase",
-                   args: ["--configure-mcp"],
                    sudo: false
   end
 
