@@ -1,8 +1,8 @@
 cask "stashbase" do
-  version "0.9.4"
-  sha256 "264b62a5cd1fce352ae54231c9aee94a2b319a1737c45f1a0eccf9f5f2b21edb"
+  version "1.0.0"
+  sha256 "be8e1e0ac974063f22855df520e3ed26ae66942e62857f93bd73efda13c1c831"
 
-  url "https://github.com/liliu-z/stashbase/releases/download/v0.9.4/StashBase-0.9.4-mac-arm64.dmg"
+  url "https://github.com/liliu-z/stashbase/releases/download/v1.0.0/StashBase-1.0.0-mac-arm64.dmg"
   name "StashBase"
   desc "Local-first knowledge base desktop app."
   homepage "https://github.com/liliu-z/stashbase"
