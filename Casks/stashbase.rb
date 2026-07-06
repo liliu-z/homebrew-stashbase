@@ -1,6 +1,6 @@
 cask "stashbase" do
   version "1.1.0"
-  sha256 "3ff0cd25b91348a6939dd1a6afa94e4426c628683972c452179a67c82d8d35b6"
+  sha256 "365873199e2f06e971c5208b9c42c229ab92da1f886fdcd53a56c48974775997"
 
   url "https://github.com/liliu-z/stashbase/releases/download/v1.1.0/StashBase-1.1.0-mac-arm64.dmg"
   name "StashBase"
