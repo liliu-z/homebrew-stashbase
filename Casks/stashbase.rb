@@ -1,8 +1,8 @@
 cask "stashbase" do
-  version "2.9.0"
-  sha256 "52666c423fcb66fd815752c49b38b85dde3f18a3168254fc463ef32acd8bcbd0"
+  version "2.9.1"
+  sha256 "8f30630d89fea5ad31e3cc0c39efae5e060c92f4c06f9e156602b56ddd6e06bb"
 
-  url "https://github.com/liliu-z/stashbase/releases/download/v2.9.0/StashBase-2.9.0-mac-arm64.dmg"
+  url "https://github.com/liliu-z/stashbase/releases/download/v2.9.1/StashBase-2.9.1-mac-arm64.dmg"
   name "StashBase"
   desc "StashBase is an IDE for writing: brainstorm, draft, and revise in local projects."
   homepage "https://github.com/liliu-z/stashbase"
