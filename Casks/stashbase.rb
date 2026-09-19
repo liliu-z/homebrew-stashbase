@@ -1,8 +1,8 @@
 cask "stashbase" do
   arch arm: "arm64", intel: "x64"
-  version "2.9.8"
-  sha256 arm: "7adcc7dfdaa0b792a0edd8da9403cfda19ee71f618fba0b9fb1e149aaa23f205",
-         intel: "75a0d27bd69e3b275b8c9648e0ed4033516e50df653e10cd10c96ea55eac9107"
+  version "2.9.9"
+  sha256 arm: "371c6f3fbf3fa970c1db1f35ba766940497694b408d5ecf24ab35d8e091fb096",
+         intel: "e50f99741707fa81935f58917a73587919b1bd49dc53a15b6e912fcd287d337f"
 
   url "https://github.com/liliu-z/stashbase/releases/download/v#{version}/StashBase-#{version}-mac-#{arch}.dmg"
   name "StashBase"
