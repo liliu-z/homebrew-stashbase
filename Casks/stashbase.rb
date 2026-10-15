@@ -1,12 +1,12 @@
 cask "stashbase" do
   arch arm: "arm64", intel: "x64"
-  version "2.16.5"
-  sha256 arm: "90540f6b2993407e7ee66c03424d7e46ea279084fc57a6495bd1d8d7c145ca17",
-         intel: "7fd99db656b854a15b989fef896ef932f71d898be4f1b121ab85a47c000e6794"
+  version "2.16.6"
+  sha256 arm: "2037203adf9a71224b1ea29434bc634f1572b11ac671f43fcb31ae66c089755b",
+         intel: "cd62670f84a935f982d4e78af9b70e79acb965728227edd6b48448a8d962ff7f"
 
   url "https://github.com/liliu-z/stashbase/releases/download/v#{version}/StashBase-#{version}-mac-#{arch}.dmg"
   name "StashBase"
-  desc "StashBase is an IDE for writing: brainstorm, draft, and revise in local projects."
+  desc "An open-source, local-first writing workspace. Write with Claude and Codex, drawing on your own sources and past work."
   homepage "https://github.com/liliu-z/stashbase"
   depends_on macos: ">= :monterey"
 
